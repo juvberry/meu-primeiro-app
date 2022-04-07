@@ -1,0 +1,37 @@
+<!-- <ng-content select="h1"></ng-content>
+
+<div *ngIf=" nome != 'Julia'">
+      ngClass adiciona ou remove uma classe Css
+     <p [ngClass]="{'active': value, 'disabled': !value}">NgClass</p>
+      ngStyle adiciona propriedades de estilo
+     <p [ngStyle]="{'height': heightPx, 'background-color': backgroundColor}">NgStyle</p>
+ </div>
+
+  ngModel
+ <hr>
+ <input [(ngModel)]="nome">
+ <button (click)="salvar()">Salvar</button>
+
+ <li *ngFor="let item of list">{{item.nome}}</li>
+
+  ng-template não gera uma leitura caso não haja nada na lista, por ex.(melhora o processamento)
+<ng-template ngFor let-item [ngForOf]="list">
+
+    <p>
+        {{ item.nome }}
+    </p>
+
+</ng-template>
+<input [(ngModel)]="nome">
+<button (click)="salvar()">Salvar</button>
+
+<ng-content select="h3"></ng-content> -->
+
+
+<!-- pipes - decorador que marca uma classe
+<input [(ngModel)]="nome">
+ <button (click)="salvar()">Salvar</button>
+
+ <li *ngFor="let item of list">{{item.nome | uppercase}}</li> -->
+
+ {{ date | date: 'dd/MM/yyyy' }}
